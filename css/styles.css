@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    /** 0 dosen't need any units i.e, pixels, etc.**/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100px;
+}
+
+.writing {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gaming {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
+.subtitle {
+    font-weight: normal;
+    margin-top: 0;
+    line-height: 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.writing-description {}
+
+.gaming-description {}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: #11999E;
+    border-radius: 8px;
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #66BFBF;
+}
